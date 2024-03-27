@@ -1,8 +1,9 @@
 package org.example.Car;
 
 public class Bicycle implements Vehicle {
+    String surface = "Велосипед едет по гречке";
     @Override
-    public void drive() {
-        System.out.println("Велосипед едет по гречке");
+    public String drive() {
+        return surface;
     }
 }

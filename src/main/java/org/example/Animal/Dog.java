@@ -1,8 +1,9 @@
 package org.example.Animal;
 
 public class Dog extends Animal{
+    String sound ="Собака: авуууфф гав гав авууууу!";
     @Override
-    public void makeSound() {
-        System.out.println("Собака: авуууфф гав гав авууууу!");
+    public String makeSound() {
+        return sound;
     }
 }

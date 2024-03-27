@@ -1,8 +1,9 @@
 package org.example.Soundable;
 
 public class Saxophone implements Soundable {
+    String sound = "Саксофон: тутутууу-путу-путуууу";
     @Override
-    public void playSound() {
-        System.out.println("Saxophone sound: TUTUDUTUDUTU");
+    public String playSound() {
+        return sound;
     }
 }

@@ -1,5 +1,5 @@
 package org.example.Animal;
 
 public abstract class Animal {
-    public abstract void makeSound();
+    public abstract String makeSound();
 }
