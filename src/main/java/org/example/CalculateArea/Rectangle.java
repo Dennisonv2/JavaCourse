@@ -12,7 +12,7 @@ public class Rectangle extends Shape{
     @Override
     public String calculateArea() {
         double area = length* width;
-        return "Площадь прямоугольника со сторонами "+width+" и "+length+" равна "+ Double.toString(area) ;
+        return "Площадь прямоугольника со сторонами "+length+" и "+width+" равна "+ Double.toString(area) ;
     }
 
     @Override

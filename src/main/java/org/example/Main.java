@@ -10,7 +10,7 @@ public class Main{
         Animal cat = new Cat();
         System.out.println(cat.makeSound());
 
-        Shape circle = new Circle(7);
+        Shape circle = new Rectangle(7,15);
         System.out.println(circle.calculateArea());
         System.out.println(circle.calculatePerimetre());
 
