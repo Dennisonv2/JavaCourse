@@ -8,17 +8,17 @@ import org.example.Soundable.*;
 public class Main{
     public static void main(String[] args) {
         Animal dog = new Dog();
-        dog.makeSound();
+        System.out.println(dog.makeSound());
 
         org.example.CalculateArea.Rectangle circle = new Rectangle(5,7);
         System.out.println("Площадь фигуры:"+circle.calculateArea());
         System.out.println("Периметр фигуры: "+circle.calculatePerimetre());
 
         Soundable vio = new Violin();
-        vio.playSound();
+        System.out.println(vio.playSound());
 
         Vehicle bicycle = new Bicycle();
-        bicycle.drive();
+        System.out.println(bicycle.drive());
 
     }
 }

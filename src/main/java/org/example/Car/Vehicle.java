@@ -1,5 +1,9 @@
 package org.example.Car;
 
-public interface Vehicle {
-    String drive();
+public class Vehicle {
+    String surface = "Средство передвижения едет по земле";
+
+    public String drive(){
+        return surface;
+    }
 }

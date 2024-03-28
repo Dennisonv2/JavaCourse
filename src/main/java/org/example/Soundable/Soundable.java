@@ -1,5 +1,8 @@
 package org.example.Soundable;
 
-public interface Soundable {
-    String playSound();
+public class Soundable {
+    String sound = "Играет непонятный музыкальный инструмент";
+    public String playSound(){
+        return sound;
+    }
 }

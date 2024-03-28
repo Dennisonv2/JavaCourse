@@ -1,5 +1,8 @@
 package org.example.Animal;
 
-public abstract class Animal {
-    public abstract String makeSound();
+public class Animal {
+    public String makeSound(){
+        String sound = "Непонятное животное издаёт звук";
+        return sound;
+    }
 }
