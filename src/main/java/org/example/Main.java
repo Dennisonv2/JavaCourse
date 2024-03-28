@@ -7,12 +7,12 @@ import org.example.Soundable.*;
 
 public class Main{
     public static void main(String[] args) {
-        Animal dog = new Dog();
-        System.out.println(dog.makeSound());
+        Animal cat = new Cat();
+        System.out.println(cat.makeSound());
 
-        org.example.CalculateArea.Rectangle circle = new Rectangle(5,7);
-        System.out.println("Площадь фигуры:"+circle.calculateArea());
-        System.out.println("Периметр фигуры: "+circle.calculatePerimetre());
+        Shape circle = new Circle(7);
+        System.out.println(circle.calculateArea());
+        System.out.println(circle.calculatePerimetre());
 
         Soundable vio = new Violin();
         System.out.println(vio.playSound());

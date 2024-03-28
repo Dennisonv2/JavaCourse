@@ -8,12 +8,14 @@ public class Circle extends Shape {
     }
 
     @Override
-    public double calculateArea() {
-        return Math.PI*radius*radius;
+    public String calculateArea() {
+        double area = Math.PI*radius*radius;
+        return "Площадь окружности с радиусом "+radius+" равна "+ Double.toString(area);
     }
 
     @Override
-    public double calculatePerimetre() {
-        return 2*Math.PI*radius;
+    public String calculatePerimetre() {
+        double perimetre = 2*Math.PI*radius;
+        return "Периметр окружности с радиусом "+radius+" равна "+ Double.toString(perimetre);
     }
 }

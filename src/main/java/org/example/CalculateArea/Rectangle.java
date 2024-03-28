@@ -10,12 +10,14 @@ public class Rectangle extends Shape{
     }
 
     @Override
-    public double calculateArea() {
-        return length*width;
+    public String calculateArea() {
+        double area = length* width;
+        return "Площадь прямоугольник со сторонами "+width+" и "+length+" равна "+ Double.toString(area) ;
     }
 
     @Override
-    public double calculatePerimetre() {
-        return 2*(length+width);
+    public String calculatePerimetre() {
+        double perimetre = 2*(length+width);
+        return "Периметр прямоугольник со сторонами "+width+" и "+length+" равна "+ Double.toString(perimetre);
     }
 }
