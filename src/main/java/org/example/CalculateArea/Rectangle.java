@@ -12,12 +12,12 @@ public class Rectangle extends Shape{
     @Override
     public String calculateArea() {
         double area = length* width;
-        return "Площадь прямоугольник со сторонами "+width+" и "+length+" равна "+ Double.toString(area) ;
+        return "Площадь прямоугольника со сторонами "+width+" и "+length+" равна "+ Double.toString(area) ;
     }
 
     @Override
     public String calculatePerimetre() {
         double perimetre = 2*(length+width);
-        return "Периметр прямоугольник со сторонами "+width+" и "+length+" равна "+ Double.toString(perimetre);
+        return "Периметр прямоугольника со сторонами "+width+" и "+length+" равна "+ Double.toString(perimetre);
     }
 }
